@@ -88,6 +88,21 @@ There are 6 heading levels: `<h1>` to `<h6>`
 : `<h1>` is the largest
 : `<h6>` is the smallest
 
+## Line Break
+
+We can start a new line by using a line break `<br>`
+
+```html
+<p>This has no line break.</p>
+<p>
+    This has a <br />
+    line break.
+</p>
+```
+
+<p>This has no line break.</p>
+<p>This has a <br> line break.</p>
+
 ## Horizontal Rule
 
 We can create a line on the page to separate content by creatinh a horizontal rule`<hr>`
