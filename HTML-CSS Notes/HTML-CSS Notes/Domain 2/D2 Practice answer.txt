@@ -1,4 +1,0 @@
-Hello Color: yellow Italics: n
-How are you? Color:magenta Italics: y 
-I'm great! Color: blue Italics: y
-See you later Color: yellow Italics: y
