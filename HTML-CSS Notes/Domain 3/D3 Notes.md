@@ -1,5 +1,7 @@
 # Document structure using HTML
 
+<p id="top"> Top </p>
+
 ## Tables
 
 ```html
@@ -108,3 +110,63 @@ We can start a new line by using a line break `<br>`
 We can create a line on the page to separate content by creatinh a horizontal rule`<hr>`
 
 <hr>
+
+Span
+: `<span>` elements allows us to style a single character, word, or short phrase
+
+```html
+<p>Today is a <span style="color:green;">special</span> day.</p>
+```
+
+<p>
+Today is a <span style="color:green;">special</span> 
+day.
+</p>
+
+## Construct and analyze markup that uses HTML5 semantic elements
+
+Summary/Details
+
+```html
+<details>
+    <summary>Click the show/hide the text</summary>
+    <p>Hi there!</p>
+    <details></details>
+</details>
+```
+
+<details>
+    <summary>Click the show/hide the text</summary>
+    <p>Hi there!</p>
+    <details></details>
+</details>
+
+Figure/Figcaption
+: figure is for images, charts, and graphs
+: figcaption is for the caption
+
+## Construct an analyze markup that implements navigation
+
+Anchor element
+: Anchor elements are link
+:They look like this `<a>`
+:We use the `href=""` attribute for the link destination
+
+```html
+<a href="example.com">example.com </a>
+```
+
+<a href="https://example.com">example.com </a>
+
+Bookmarks
+: We can create internal links by linking to ids
+
+```html
+<a href="#top"> Go to top of notes </a>
+```
+
+<a href="#top"> Go to top of notes </a>
+
+Relative vs Absolute Links
+: Relative links relate to files inside the website, for example `index.html`, `about.html`, `contact.html`
+:Absolute links are unique addresses such as `google.com`, `gmetric.net`, `wikipedia.org`
