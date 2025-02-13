@@ -151,6 +151,7 @@ Anchor element
 : Anchor elements are link
 :They look like this `<a>`
 :We use the `href=""` attribute for the link destination
+: We use the `target=_"blank"` attribute to make the link open in a new tab
 
 ```html
 <a href="example.com">example.com </a>
@@ -170,3 +171,19 @@ Bookmarks
 Relative vs Absolute Links
 : Relative links relate to files inside the website, for example `index.html`, `about.html`, `contact.html`
 :Absolute links are unique addresses such as `google.com`, `gmetric.net`, `wikipedia.org`
+
+## Navigating folders
+
+"../"
+: Goes up a folder
+
+"name of file"/
+: goes down into a folder of that name
+
+"name of file"."file extension"
+: runs that file
+
+map/area
+: The "map" element, along with the "area" element, allows for the creation of images that have spots on them that are clickable hyperlinks
+
+## Forms
